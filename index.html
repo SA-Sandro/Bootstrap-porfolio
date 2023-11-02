@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Metadatos -->
+    <meta charset="UTF-8">
+    <meta name="author" content="Sandro SA">
+    <meta name="description" content="Portafolio Desarrollo web Sandro SA">
+    <meta name="keywords" content="HTML,CSS,JavaScript,React">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Título del proyecto -->
+    <title>Sandro SA | Desarrollador Web Front-End</title>
+    <!-- FavIcon -->
+    <link rel="icon" type="image/x-icon" href="images/desarrollador-web.png">
+    <!-- BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Barra de navegación -->
+    <nav class="navbar navbar-expand-md">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-Toggler"
+                aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse d-flex-md justify-content-between align-content-center"
+                id="navbar-Toggler">
+                <a class="navbar-brand" href="#">
+                    <img id="iconn" src="images/desarrollador-web.png" width="70" alt="Logo del proyecto">
+                </a>
+                <ul class="navbar-nav d-flex justify-content-center align-items-center">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">Sobre mí</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Proyectos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Testimonios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Sección Hero -->
+    <section class="hero align-content-stretch">
+        <div class="hero-principal p-3">
+            <img class="foto-perfil rounded-circle" src="images/IMG_20230430_153118.jpg" width="200px"
+                alt="Foto de Sandro Suárez Aranda">
+            <h1 class="fs-2 mt-2">Hola, soy Sandro Suárez Aranda</h1>
+            <h2 class="fs-5">Estudiante de desarrollo web y amante de las tecnologías de desarrollo</h2>
+        </div>
+        <div class="hero-imagen-inferior d-flex justify-content-center img-fluid">
+            <img class="hero-inferior-img" src="images/hero-inferior.svg" width="300px" alt="Logo HTML, CSS y JS">
+        </div>
+    </section>
+    <!-- Sobre mí -->
+    <section class="sobre-mi seccion-oscura text-center">
+        <div class="contenedor">
+            <h2 class="seccion-titulo">Conoce a Sandro Suárez </h2>
+            <p class="seccion-texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tellus sapien,
+                convallis eu augue non,
+                tristique condimentum diam. Suspendisse non imperdiet magna. Mauris eget pretium arcu, non porttitor
+                arcu. Pellentesque habitant morbi tristi ue senectus et netus et malesuada fames ac turpis egestas.
+                Aliquam lacinia nulla lacus, non rhoncus lacus bibendum quis. Phasellus lectus urna, semper tristique
+                massa sit amet, aliquet scelerisque elit. Proin at tellus quis justo vulputate iaculis quis ac sem.
+                Fusce in elit ultricies, tincidunt lorem vitae, dictum quam. Aliquam dictum rutrum ligula, in tristique
+                erat mollis at.</p>
+        </div>
+    </section>
+    <!-- Experiencia -->
+    <section class="experiencia seccion-clara">
+        <div class="container text-center">
+            <div class="row">
+                <div class="columna col-12 col-md-4">
+                    <i class="bi bi-laptop"></i>
+                    <h2 class="experiencia-titulo">Desarrollo Web</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur suscipit facilisis mollis.
+                        Pellentesque porta diam id dolor varius, at tristique elit gravida.</p>
+                    <div class="badges-contenedor mb-4">
+                        <span class="badge text-bg-primary">HTML</span>
+                        <span class="badge text-bg-primary">CSS</span>
+                        <span class="badge text-bg-primary">JavaScript</span>
+                        <span class="badge text-bg-primary">React</span>
+                    </div>
+                </div>
+                <div class="columna col-12 col-md-4">
+                    <i class="bi bi-pencil"></i>
+                    <h2 class="experiencia-titulo">Artículos</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur suscipit facilisis mollis.
+                        Pellentesque porta diam id dolor varius, at tristique elit gravida.</p>
+                    <div class="badges-contenedor">
+                        <span class="badge text-bg-primary">Escribir</span>
+                        <span class="badge text-bg-primary">Editar</span>
+                        <span class="badge text-bg-primary">Redactar</span>
+                    </div>
+                </div>
+                <div class="columna col-12 col-md-4">
+                    <i class="bi bi-filetype-php"></i>
+                    <h2 class="experiencia-titulo">Estudiante</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur suscipit facilisis mollis.
+                        Pellentesque porta diam id dolor varius, at tristique elit gravida.</p>
+                    <div class="badges-contenedor">
+                        <span class="badge text-bg-primary">FreeCodeCamp</span>
+                        <span class="badge text-bg-primary">Diseño Web</span>
+                        <span class="badge text-bg-primary">PHP</span>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Mis proyectos -->
+    <section class="pt-4 pb-4">
+        <h2 class="proyectos-titulo">Proyectos</h2>
+        <h3 class=" text-descripcion text-center">Estos son algunos de los proyectos que he ido realizando como
+            desarrollador en
+            formación </h3>
+        <div class="container text-center">
+            <div class="row d-flex justify-content-center pt-4">
+                <div class="col-12 col-md-6 col-lg-4 d-flex align-items-center">
+                    <div class="proyecto">
+                        <img src="images/Captura.PNG">
+                        <div class="overlay text-center">
+                            <p>Nature Register</p>
+                            <div class="iconos-contenedor">
+                                <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-github"></i>
+                                </a>
+                                <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-pc-display-horizontal"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="proyecto">
+                        <img src="images/landing.page.PNG">
+                        <div class="overlay text-center">
+                            <p>Landing Page</p>
+                            <div class="iconos-contenedor">
+                                <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-github"></i>
+                                </a>
+                                <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-pc-display-horizontal"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="ultimo-proyecto col-12 col-md-6 col-lg-4">
+                    <div class="proyecto">
+                        <img src="images/bigSoft.PNG">
+                        <div class="overlay text-center">
+                            <p>BigoSoft. Página web</p>
+                            <div class="iconos-contenedor">
+                                <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-github"></i>
+                                </a>
+                                <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-pc-display-horizontal"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button type="button" class="boton-texto btn btn-info mt-3"><a href="#" target="_blank"
+                    rel="noopenern noreferrer">Ver más proyectos</a><i
+                    class="bi bi-arrow-right-circle-fill mx-1"></i></button>
+        </div>
+    </section>
+    <!-- Artículos -->
+    <section class="articulos justify-content-start">
+        <h2 class="articulos-titulo">
+            Artículos
+        </h2>
+        <div class="card mt-2">
+            <div class="card-header">Más recientes</div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item"><a href="#" target="_blank" rel="noopener noreferrer">An item</a></li>
+                <li class="list-group-item"><a href="#" target="_blank" rel="noopener noreferrer">A second item</a></li>
+                <li class="list-group-item"><a href="#" target="_blank" rel="noopener noreferrer">A thrid item</a></li>
+                <li class="list-group-item"><a href="#" target="_blank" rel="noopener noreferrer">A fourth item</a></li>
+                <li class="list-group-item"><a href="#" target="_blank" rel="noopener noreferrer">A fifthy item</a></li>
+            </ul>
+        </div>
+        <button type="button" class="boton-texto btn btn-info mt-3"><a href="#" target="_blank"
+                rel="noopenern noreferrer">Ver más artículos</a> <i
+                class="bi bi-arrow-right-circle-fill mx-1"></i></button>
+    </section>
+    <!--Testimonios-->
+    <section class="testimonios seccion-clara">
+        <h2 class="testi-titulo">
+            Testimonios
+        </h2>
+        <h3 class="text-descripcion text-center">
+            Estos son algunos testimonios de mis clientes...
+        </h3>
+        <!--Carousel de testiomonios-->
+        <div id="carouselExampleCaptions" class="carousel carousel-dark slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="container">
+                        <img class="testimonio-imagen rounded-circle" src="images/cliente1.svg" alt="Foto imagen Gino">
+                        <p class="testimonio-texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <div class="testimonio-info">
+                            <p class="cliente">Gino</p>
+                            <p class="cargo">Encargado de proyectos</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="container">
+                        <img class="testimonio-imagen rounded-circle" src="images/cliente2.svg" alt="Foto imagen Adams">
+                        <p class="testimonio-texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
+                            finibus blandit turpis</p>
+                        <div class="testimonio-info">
+                            <p class="cliente">Adams</p>
+                            <p class="cargo">Diseñadora Front</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="container">
+                        <img class="testimonio-imagen rounded-circle" src="images/cliente3.svg"
+                            alt="Foto imagen Armando">
+                        <p class="testimonio-texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
+                            finibus blandit turpi</p>
+                        <div class="testimonio-info">
+                            <p class="cliente">Armando</p>
+                            <p class="cargo">SEO iNaturaList</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+    <!-- Contacto -->
+    <section class="contacto seccion-oscura">
+        <div class="container">
+            <div class="container  text-center rectangulo ">
+                <div class="row d-flex align-items-center">
+                    <div class="col-12 col-md-4 seccion-titulo p-2">¡Hablemos!</div>
+                    <div class="col-12 col-md-4 descripcion p-2">Contáctame para iniciar tu proyecto de desarrollo web y
+                        haré que tu visió
+                        se vuelva realidad
+                    </div>
+                    <div class="col-12 col-md-4 p-2">
+                        <a href="mailto:sandrosuarezaranda@gmail.com">
+                            <button type="button" class="boton">Contacto<i
+                                    class="bi bi-envelope-check-fill"></i></button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Pie de página (footer ) -->
+    <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center">
+        <img  class="footer-icono" src="images/desarrollador-web.png" alt="Logo de la página web">
+        <p class="footer-texto text-center">Aprendo y creo todos los días <br>
+            ¡Creemos un proyecto juntos!
+        </p>
+        <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+            <a href="#" target="_blank" rel="noopener noreferrer"><i class="bi bi-instagram"></i></a>
+            <a href="#" target="_blank" rel="noopener noreferrer"><i class="bi bi-twitter-x"></i></a>
+            <a href="#" target="_blank" rel="noopener noreferrer"><i class="bi bi-github"></i></a>
+            <a href="#" target="_blank" rel="noopener noreferrer"><i class="bi bi-linkedin"></i></a>
+        </div>
+        <div class="derechos-autor">Creado por Sandro Suárez Aranda (2023) &#169</div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

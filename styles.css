@@ -1,0 +1,384 @@
+/*navbar*/
+.navbar {
+    padding: 2rem;
+    background-color: rgba(186, 222, 234, 0.538);
+}
+
+.nav-link {
+    font-size: 1.1rem;
+}
+
+/*Primer section*/
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.foto-perfil {
+    width: 200px;
+    height: 200px;
+}
+
+.hero-principal h1,
+h2 {
+    font-family: 'Roboto', sans-serif;
+}
+
+.hero {
+    padding: 10px;
+    background-color: rgba(186, 222, 234, 0.538);
+    text-align: center;
+    min-height: 450px;
+}
+
+.hero-principal h2 {
+    color: rgb(110, 110, 110);
+}
+
+.contenedor {
+    height: 500px;
+    display: grid;
+    align-content: center;
+    padding: 10px;
+}
+
+.fs-2 {
+    font-weight: bold;
+}
+
+.seccion-oscura {
+    background-color: #1b1b32;
+    color: white;
+}
+
+.seccion-titulo {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.6rem;
+}
+
+.seccion-texto {
+    padding: 10px;
+    max-width: 600px;
+    font-size: 1rem;
+}
+
+/* Experiencia */
+.experiencia {
+    padding: 20px;
+}
+
+.experiencia-titulo {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.experiencia i {
+    font-size: 2rem;
+    color: greenyellow;
+    background-color: black;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.seccion-clara {
+    color: black;
+    background-color: white;
+}
+
+.columna {
+    padding: 15px 5px 15px 5px;
+    border: 2px solid black;
+    transition: 0.3s ease-in;
+}
+
+.columna:hover {
+    background-color: #1b1b32;
+    color: white;
+}
+
+.proyecto {
+    padding: 5px;
+    position: relative;
+    border: 2px solid rgba(220, 20, 60, 0.441);
+}
+
+.proyectos-titulo {
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.proyecto img {
+    width: 100%;
+    height: 100%;
+}
+
+.overlay {
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+}
+
+.overlay p {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.overlay .iconos-contenedor {
+    font-size: 2.3rem;
+}
+
+.proyecto:hover .overlay {
+    opacity: 1;
+}
+
+.proyecto:hover img {
+    opacity: .3;
+}
+
+/* Articulos */
+.articulos {
+    min-height: 500px;
+    padding: 30px;
+}
+
+.card {
+    width: 80%;
+    max-width: 600px;
+}
+
+.card-header {
+    font-weight: bold;
+}
+
+.articulos-titulo {
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.boton-texto {
+    font-size: 1.0rem;
+    font-weight: 500;
+}
+
+.boton-texto:hover {
+    color: white;
+    background-color: #1b1b32;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Testiomonios */
+.testi-titulo {
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.text-descripcion {
+    font-weight: 400;
+    width: 70%;
+}
+
+.testimonios {
+    padding: 40px;
+}
+
+.carousel {
+    max-width: 800px;
+}
+
+.carousel-item {
+    height: 500px;
+}
+
+.carousel-item .container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.testimonio-imagen {
+    width: 150px;
+    height: 150px;
+    margin: 10px 10px 20px 10px;
+}
+
+.testimonio-texto {
+    max-width: 70%;
+    font-size: 20px;
+    text-align: center;
+}
+
+.testimonio-info {
+    height: 400px;
+}
+
+.testimonio-info p {
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.cliente {
+    font-size: 1.2rem;
+}
+
+.cargo {
+    font-size: 0.9rem;
+    color: #656060;
+}
+
+/* Contacto */
+.boton {
+
+    min-width: 130px;
+    height: 40px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 15px;
+    z-index: 0;
+    background: #fff;
+    overflow: hidden;
+    border: 2px solid #57cc99;
+    color: #57cc99;
+}
+
+.boton:hover {
+    color: #fff;
+}
+
+.boton:hover:after {
+    height: 100%;
+}
+
+.boton:after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    transition: all 0.3s ease;
+    left: 0;
+    bottom: 0;
+    height: 0;
+    width: 100%;
+    background: #57cc99;
+}
+
+.contacto .container {
+    max-width: 1100px;
+    min-height: 200px;
+    padding: 20px;
+}
+
+.container .rectangulo {
+    display: flex;
+    align-items: center;
+    margin-top: -4.5rem;
+    background-color: rgb(13, 110, 253);
+    border-radius: 10px;
+    box-shadow: 0px 1px 4px 1px white;
+}
+
+.contacto .descripcion {
+    color: white;
+    font-size: 1.2rem;
+}
+/* Footer */
+
+.footer-icono{
+    width: 70px;
+    margin: 10px;
+}
+footer{
+    min-height: 500px;
+}
+.footer-text{
+    font-size: 1.5rem;
+    padding:20px;
+    margin-bottom: 30px;
+}
+
+.iconos-redes-sociales a{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    margin: 10px;
+    border: 2px solid white;
+    border-radius: 50%;
+    transform: all 0.2s ease-in;
+}
+.iconos-redes-sociales i {
+    color: white;
+    font-size: 1.5rem;
+    transition: all 0.2 ease-in;
+}
+.iconos-redes-sociales a:hover{
+    background-color: white;
+    border: 2px solid rgb(13,110,256);
+}
+.iconos-redes-sociales a:hover i{
+    color: black;
+}
+.derechos-autor{
+    font-size: 15px;
+    color: #aeaeae;
+    padding: 20px;
+}
+
+
+/* Realizamos ajustes de visibilidad */
+@media screen and (max-width: 425px) {
+    .footer-icono {
+        max-width: 50px;
+    }
+}
+@media screen and (min-width: 768px) {
+    .hero-inferior-img {
+        min-width: 600px;
+    }
+
+    .ultimo-proyecto {
+        padding-top: 10px;
+    }
+}
+
+@media screen and (max-width:700px) {
+    .text-descripcion {
+        font-size: 1.3rem;
+        width: 90%;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .testimonios {
+        padding: 10px;
+    }
+}
+
+
+
+@media screen and (max-width: 767px) {
+    #iconn {
+        display: none;
+    }
+}
